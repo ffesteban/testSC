@@ -1,51 +1,63 @@
 let shopData = [
     {
         Id: 1,
-        Description: 'test',
+        Description: 'Shirt Quiksilver',
         Image: 'images/Men/M01.jpg',
         Price: 25
     },
     {
         Id: 2,
-        Description: 'test2',
+        Description: 'Hoddie Volcom',
         Image: 'images/Men/M02.jpg',
-        Price: 222
+        Price: 48
     },
     {
         Id: 3,
-        Description: 'test',
+        Description: 'Shirt Billabong',
         Image: 'images/Men/M03.jpg',
-        Price: 25
+        Price: 22
     },
     {
         Id: 4,
-        Description: 'test2',
+        Description: 'T-Shirt Hurley',
         Image: 'images/Men/M04.jpg',
-        Price: 222
+        Price: 17
     },
     {
         Id: 5,
-        Description: 'test',
+        Description: 'Billabong Hoddie',
         Image: 'images/Men/M05.jpg',
-        Price: 25
+        Price: 21
     },
     {
         Id: 6,
-        Description: 'test2',
+        Description: 'Hoddie Volcom',
         Image: 'images/Men/M06.jpg',
-        Price: 222
+        Price: 32
     },
     {
         Id: 7,
-        Description: 'test',
+        Description: 'Hoddie Hurley',
         Image: 'images/Men/M07.jpg',
-        Price: 25
+        Price: 35
     },
     {
         Id: 8,
-        Description: 'test2',
+        Description: 'T-Shirt Volcom',
         Image: 'images/Men/M08.jpg',
-        Price: 222
+        Price: 12
+    },
+    {
+        Id: 9,
+        Description: 'T-Shirt Nasa',
+        Image: 'images/Men/M09.jpg',
+        Price: 14
+    },
+    {
+        Id: 10,
+        Description: 'T-Shirt Sacata',
+        Image: 'images/Men/M10.jpg',
+        Price: 18
     }
 ];
 

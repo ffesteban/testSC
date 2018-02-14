@@ -1,26 +1,35 @@
 import React, { Component } from 'react';
-import shopData from '../../temporaryData';
-import '../../App.css';
+import '../../styles/item.css';
 
-const ItemProduct = ({item}) => {
+const ItemProduct = ({item, addItem}) => {
     return (
         <div className="Item">
             <img src={item.Image} className="ImageItem" alt="" />
-            <h3>{item.Description}</h3>
-            <span>Price: ${item.Price}</span>
+            <hr className="ItemLine"></hr>
+            <h3 className="ItemDescription">{item.Description}</h3>
+            
+            <h4 className="ItemPrice">${item.Price}</h4>
             <br/>
-            <button className="btn btn-success">Test</button>
+            <button className="btn btn-success ItemButton" onClick={() => addItem(item)}><span className="glyphicon glyphicon-shopping-cart"></span>&nbsp;Add Item</button>
         </div>
     );
 }
 
-const ItemsProducts = ({data}) => {
+const ItemsProducts = ({data, addItem}) => {
     return (
         <div className="ItemsProducts">
-            <h1>Men's Clothing</h1>
+        <h1>Men Clothing</h1>
             {data.map((element) =>
-                <ItemProduct item={element} key={element.Id}/>
+                <ItemProduct item={element} key={element.Id} addItem={addItem} />
             )}
+        </div>
+    );
+};
+
+const ItemsCounter = ({counter}) => {
+    return (
+        <div className="">
+            <span className="glyphicon glyphicon-shopping-cart ItemCounter">&nbsp;{counter}</span>
         </div>
     );
 };
@@ -29,8 +38,10 @@ class Item extends Component {
   render() {
     return (
         <div>
-            <h1>TestingItem</h1>
-            <ItemsProducts data={shopData} />
+            <ItemsCounter counter={this.props.itemCounter} />
+            
+            <ItemsProducts data={this.props.data} addItem={this.props.addItem} />
+            
         </div>
     );
   }

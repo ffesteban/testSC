@@ -1,0 +1,22 @@
+.HomeHeader {
+    height: 430px;
+    background-color: #fff;
+    margin-top: 0px;
+}
+
+.HomeBody {
+    height: 430px;
+    background-color: #666;
+    margin-top: 0px;
+}
+
+.HomeFooter {
+    height: 430px;
+    background-color: #999;
+    margin-top: 0px;
+}
+
+.Home{
+    margin: 0px;
+}
+

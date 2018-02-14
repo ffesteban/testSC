@@ -1,0 +1,42 @@
+.ImageItem {
+    width: 300px;
+    height: 320px;
+    border-radius: 5px;
+}
+
+.Item {
+    margin: 5px;
+    padding: 0px 0px 0px 0px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #222222;
+}
+
+.ItemsProducts {   
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.ItemPrice{
+    margin: 0;
+    color: green;
+}
+
+.ItemDescription{
+    margin-top: 5px;
+}
+
+.ItemButton {
+    margin-top: -20px;
+};
+
+.ItemLine {
+    margin-top: 0px;
+    border-top: 4px solid #222222;
+}
+
+.ItemCounter{
+    color: white;
+    top: -55px;
+    right: -95%;
+}
