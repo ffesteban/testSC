@@ -17,7 +17,6 @@ const HomeBody = ({data}) => {
             <Link to="/men">
                 <div>
                     <h1>Men Clothing</h1>
-
                 </div>
             </Link>
         </div>

@@ -6,9 +6,9 @@ import registerServiceWorker from './registerServiceWorker';
 import Nav from './Components/header/nav';
 
 const app = (
-        <BrowserRouter>
-            <Nav />
-        </BrowserRouter>
+  <BrowserRouter>
+    <Nav />
+  </BrowserRouter>
 
 );
 
